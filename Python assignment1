@@ -1,5 +1,29 @@
+QUESTION NO 1:
+
+
 l=[]
 for i in range(2000, 3201):
     if (i%7==0) and (i%5!=0):
         l.append(str(i))
 print(','.join(l))
+
+
+QUESTION NO 2:
+
+
+first_name = input()
+second_name = input()
+first_name=first_name[::-1]
+second_name=second_name[::-1]
+name= first_name +' '+ second_name
+print(name)
+
+
+QUESTION NO 3:
+
+
+import math
+diameter = 12
+radius =  diameter/2
+volume = 4/3 * math.pi * radius **3
+print('volume = ', volume )
