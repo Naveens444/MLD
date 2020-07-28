@@ -1,0 +1,18 @@
+QUESTION NO: 1
+
+for i in range(0,10): 
+    if i<6 :
+        for j in range(0,i):
+            print('*',end= '')
+        print('\n')
+    else:
+        for j in range(i,10): 
+            print('*',end= '')
+        print('\n')
+        
+ 
+ QUESTION NO: 2
+ 
+name= input()
+name=name[::-1]
+print(name)
